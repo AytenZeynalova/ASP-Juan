@@ -1,0 +1,59 @@
+﻿@model List<HomeSlider>
+@{
+    ViewData["Title"] = "Slider";
+    int count = 0;
+
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <a class="btn btn-primary" asp-action="create" >Create</a>
+        </div>
+        <div class="col-md-10 mx-auto">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">count</th>
+
+                        <th scope="col">id</th>
+                        <th scope="col">subtitle</th>
+                        <th scope="col">title</th>
+                        <th scope="col">describtion</th>
+                        <th scope="col">buttontext</th>
+                        <th scope="col">image</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (HomeSlider hmsldr in Model)
+                    {
+                        count++;
+
+                    <tr>
+                        <th scope="row">@count</th>
+
+                        <td>@hmsldr.Id</td>
+                        <td>@hmsldr.Subtitle</td>
+                        <td>@hmsldr.Title</td>
+                        <td>@hmsldr.Desc</td>
+                        <td>@hmsldr.ButtonText</td>
+                        <td>@hmsldr.Image</td>
+
+                        <td>
+                            <a class="btn btn-warning" asp-action="edit">Edit</a>
+                            <a class="btn btn-danger" asp-action="delete">Delete</a>
+                        </td>
+                    </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>>
+
+
+
+

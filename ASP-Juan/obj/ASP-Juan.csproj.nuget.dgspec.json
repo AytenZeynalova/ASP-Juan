@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayten\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj": {}
+    "C:\\Users\\aytnz\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayten\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj": {
+    "C:\\Users\\aytnz\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayten\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj",
+        "projectUniqueName": "C:\\Users\\aytnz\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj",
         "projectName": "ASP-Juan",
-        "projectPath": "C:\\Users\\Ayten\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj",
-        "packagesPath": "C:\\Users\\Ayten\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayten\\Desktop\\ASP-Juan\\ASP-Juan\\obj\\",
+        "projectPath": "C:\\Users\\aytnz\\Desktop\\ASP-Juan\\ASP-Juan\\ASP-Juan.csproj",
+        "packagesPath": "C:\\Users\\aytnz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aytnz\\Desktop\\ASP-Juan\\ASP-Juan\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ayten\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aytnz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

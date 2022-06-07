@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ASP_Juan.DAL;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,31 @@ namespace ASP_Juan.Areas.manage.Controllers
     [Area("manage")]
     public class SliderController : Controller
     {
-        public SliderController()
-        {
+        private readonly JuanDbContext _context;
 
+        public SliderController( JuanDbContext context)
+        {
+            _context = context;
         }
-        public IActionResult Index()
+        public IActionResult Slider()
+        {
+            var data = _context.HomeSliders.ToList();
+            return View(data);
+        }
+
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+
+        public IActionResult Edit()
+        {
+            return View();
+        }
+
+        public IActionResult Delete()
         {
             return View();
         }

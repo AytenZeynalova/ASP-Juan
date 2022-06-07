@@ -14,5 +14,7 @@ namespace ASP_Juan.Models
         public string ButtonText { get; set; }
 
         public string Image { get; set; }
+
+
     }
 }

@@ -21,7 +21,7 @@ namespace ASP_Juan
             services.AddControllersWithViews();
             services.AddDbContext<JuanDbContext>(options =>
             {
-                options.UseSqlServer(@"Server=DESKTOP-Q400V6O;Database=Juan;Trusted_Connection=TRUE");
+                options.UseSqlServer(@"Server=AYTEN\SQLEXPRESS01;Database=Juan;Trusted_Connection=TRUE");
             });
         }
 
